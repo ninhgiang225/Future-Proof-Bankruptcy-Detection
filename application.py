@@ -12,7 +12,7 @@ data_path = BASE_DIR / "data" / "data.csv"
 df = pd.read_csv(data_path).drop("Bankrupt?", axis =1)
 
 # Load the saved model
-model = BASE_DIR / "models" / "bankruptcy_prediction_model.pkl"
+model = joblib.load(BASE_DIR / "models" / "bankruptcy_prediction_model.pkl")
 
 # Define the app title
 st.title("Bankruptcy Risk Prediction")
