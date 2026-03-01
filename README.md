@@ -25,6 +25,7 @@ A machine learning project that analyzes and predicts company bankruptcies using
 1. **Explore the analysis** — Open `CompanyBankruptcyPrediction.ipynb` to review the full findings, methodology, and key insights. A dashboard preview is included at the end of the notebook.
 
 2. **Launch the dashboard** — Run the following command in your terminal:
+
    ```bash
 
     # 1. Clone the repository
@@ -38,15 +39,20 @@ A machine learning project that analyzes and predicts company bankruptcies using
     source venv/bin/activate      # Mac/Linux
     venv\Scripts\activate         # Windows
     
-    # 3. Install dependencies
-    
+    # 3. Install system dependency (macOS only — required by LightGBM)
+
+    brew install libomp
+
+    # 4. Install Python dependencies
+
     pip install -r requirements.txt
     
-    # 4. Run the application
+    # 5. Run the application
     
     streamlit run application.py
    
    ```
+
    This will open an interactive web app locally. Enter a company's financial metrics to receive a bankruptcy risk prediction, along with guidance on which financial indicators to monitor and improve.
 
 <img width="978" alt="image" src="https://github.com/user-attachments/assets/2705e64f-3758-45b8-9121-d1e279d0ab7d" />
