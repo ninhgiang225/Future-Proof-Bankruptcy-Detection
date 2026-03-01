@@ -39,11 +39,15 @@ A machine learning project that analyzes and predicts company bankruptcies using
     source venv/bin/activate      # Mac/Linux
     venv\Scripts\activate         # Windows
     
-    # 3. Install dependencies
-    
+    # 3. Install system dependency (macOS only — required by LightGBM)
+
+    brew install libomp
+
+    # 4. Install Python dependencies
+
     pip install -r requirements.txt
     
-    # 4. Run the application
+    # 5. Run the application
     
     streamlit run application.py
    
