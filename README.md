@@ -30,8 +30,8 @@ A machine learning project that analyzes and predicts company bankruptcies using
 
     # 1. Clone the repository
     
-    git clone https://github.com/YOUR_USERNAME/bankruptcy-prediction.git
-    cd bankruptcy-prediction
+    git clone https://github.com/ninhgiang225/Future-Proof-Bankruptcy-Detection.git
+    cd Future-Proof-Bankruptcy-Detection
     
     # 2. Create virtual environment (recommended)
     
@@ -55,7 +55,9 @@ A machine learning project that analyzes and predicts company bankruptcies using
 
    This will open an interactive web app locally. Enter a company's financial metrics to receive a bankruptcy risk prediction, along with guidance on which financial indicators to monitor and improve.
 
-<img width="978" alt="image" src="https://github.com/user-attachments/assets/2705e64f-3758-45b8-9121-d1e279d0ab7d" />
+<img width="939" height="463.5" alt="image" src="https://github.com/user-attachments/assets/7795d6f7-6a9d-46cd-bc49-fcf5aec33adb" />
+<img width="939" height="463.5" alt="image" src="https://github.com/user-attachments/assets/7f12ac02-c20d-4adb-8871-b8368a4610fc" />
+
 
 ---
 
