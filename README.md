@@ -22,7 +22,7 @@ A machine learning project that analyzes and predicts company bankruptcies using
 
 ## Getting Started
 
-1. **Explore the analysis** — Open `CompanyBankruptcyPrediction.ipynb` to review the full findings, methodology, and key insights. A dashboard preview is included at the end of the notebook.
+1. **Explore the analysis** — Open `CompanyBankruptcyPrediction.ipynb` to review the full findings, methodology and key insights. A dashboard preview is included at the end of the notebook.
 
 2. **Launch the dashboard**
    - Click here: [Bankruptcy Detection App](https://ninhgiang225-future-proof-bankruptcy-detecti-application-mnb3ti.streamlit.app/)
